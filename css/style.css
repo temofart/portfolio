@@ -26,6 +26,10 @@ body * {
 	src: url("../fonts/proximanova-semibold.otf");
 	font-family: "proximanova";
 }
+@font-face {
+	src: url("../fonts/alison.ttf");
+	font-family: "alison";
+}
 .header {
 	background: url(../images/back.jpg) center no-repeat;
 	-webkit-background-size: cover;
@@ -85,6 +89,7 @@ body * {
 	width: 80%;
 	text-align: center;
 	margin: 50px auto;
+	margin-bottom: 0;
 }
 /**/
 /*	ABOUT  */
@@ -92,13 +97,18 @@ body * {
 
 .about .container {
 	text-align: center;
-	margin: 20px auto;
+	margin: 0px auto;
+}
+.about {
+	background: #E6E6E6;
 }
 .about h1 {
 	font-family: "metaserif";
 	font-weight: ;
-	margin: 34px auto;
+	margin: 0px auto;
 	margin-bottom: 50px;
+	padding-top: 30px;
+	text-align: center;
 }
 .about .me-text h3 {
 	font-size: 25px;
@@ -118,6 +128,7 @@ body * {
 
 .portfolio {
 	text-align: center;
+	background: #FCFBFB;
 }
 .block a {
 	text-decoration: none;
@@ -137,7 +148,7 @@ body * {
 	border-radius: 5px;
 	margin: 20px auto;
 	padding: 20px 20px;
-	background-color: #FFAA3B;
+	background-color: #FEAC41;
 	color: #fff;
 	padding-bottom: 0;
 	position: relative;
@@ -166,8 +177,9 @@ body * {
  }
 .portfolio h1 {
 	font-family: "metaserif";
-	margin: 10px auto;
+	margin: 0px auto;
 	margin-bottom: 30px;
+	padding-top: 20px;
 	text-align: center;
 }
 .portfolio h3 {
@@ -200,4 +212,63 @@ body * {
 background: #fff;
 color: #FFAA3B;
 text-shadow: 1px 1px #FFD092;
+}
+
+/**/
+/*SKILLS*/
+/**/
+.skills {
+	background: #ECECEC;
+}
+.skills h1 {
+	font-family: "metaserif";
+	font-weight: ;
+	margin: 0px auto;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.skills h2 {
+	font-family: "sanspro";
+	margin: 20px auto;
+	text-align: center;
+}
+.skills ul {
+	margin: 20px auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.skills ul li {
+	font-family: "sanspro";
+	font-size: 18px;
+	list-style-type: none;
+	padding: 3px 20px;
+}
+.skills h3 {
+	text-align: center;
+	font-family: "brocs";
+	font-size: 34px;
+}
+
+/**/
+/*WHYME*/
+/**/
+.whyme h1 {
+	font-family: "metaserif";
+	font-weight: ;
+	margin: 0px auto;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.whyme {
+	text-align: center;
+}
+.icon {
+	margin: 30px auto;
+}
+.icon h3 {
+	font-family: "sanspro";
+	margin: 10px auto;
+	text-align: center;
 }
